@@ -41,8 +41,12 @@ class Calculator:
         self.equation.set(self.entry_value)
 
     def solve(self):
-        result=eval(self.entry_value)
-        self.equation.set(result)
+        try:
+            result=eval(self.entry_value)
+            self.equation.set(result)
+            self.entry_value = str(result)
+        except:
+            self.equation.set("Error")
 
 root=Tk()
 Calculator=Calculator(root)

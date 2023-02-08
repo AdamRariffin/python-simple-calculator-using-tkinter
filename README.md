@@ -11,3 +11,5 @@ You can input numbers and calculate like a boss by simply clicking on the button
 The end result is displayed right there on the screen for you to see. 
 This script is boss level simple and easy to use, making it a dope tool for beginners just starting to get into programming and GUI development.
 ![res](res/calculator1.PNG)
+![res](res/calculator2.PNG)
+![res](res/calculator error.PNG)
